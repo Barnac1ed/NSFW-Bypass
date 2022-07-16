@@ -7,7 +7,7 @@ Go to [this](https://nsfwunblocker.000webhostapp.com/) website. Then, enter the 
 
 **NOTE:** Ignore the "We support Ukraine" box, it gets placed automatically by the webhost.
 
-## LICENSE
+### LICENSE
 ```txt
 Copyright (c) 2022 Barnacled
 
