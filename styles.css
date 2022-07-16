@@ -1,0 +1,122 @@
+:root {
+    --bg: #636564;
+    --bg-accent: #7c898b;
+    --bg-accent-accent: #9eaeb1;
+    --accent: #93A3B1;
+    --accent-hover: #8C9A9E;
+    --text: #4C443C;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    max-width: 1200px;
+    padding: 10px 10px;
+    margin: auto;
+    background-color: var(--bg);
+    transition: background-color 500ms;
+    line-height: 1.5;
+}
+
+nav {
+    background-color: var(--bg-accent);
+    overflow: hidden;
+    border-radius: 6px;
+    text-align: center;
+    transition: transform 250ms, background-color 500ms, box-shadow 500ms, color 500ms;
+}
+
+nav a {
+    float: left;
+    color: var(--accent);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: var(--bg-accent-accent);
+    color: var(--accent-hover);
+}
+
+a {
+    color: var(--accent);
+    transition: color 500ms;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-hover);
+    transition: color 300ms;
+}
+
+p {
+    color: var(--text);
+    text-align: start;
+    margin: 5px;
+    transition: color 500ms;
+}
+
+footer {
+    background-color: var(--bg-accent);
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    transition: transform 250ms, background-color 500ms, box-shadow 500ms,
+      color 500ms;
+}
+
+footer p {
+    color: var(--bg-accent-accent);
+    transition: color 500ms;
+}
+
+button {
+    color: var(--bg-accent);
+    cursor: pointer;
+    background-color: var(--accent);
+    border: none;
+    border-radius: 6px;
+    transition: color 500ms, background-color 500ms, box-shadow 500ms;
+    border: 1px solid;
+}
+
+button:hover {
+    background-color: var(--bg-accent-accent);
+    color: var(--accent-hover);
+    border: 1px solid var(--accent-hover);
+}
+
+input:hover {
+    background-color: var(--bg-accent-accent);
+    color: var(--accent-hover);
+    border: 1px solid var(--accent-hover);
+}
+
+input {
+    color: var(--bg-accent);
+    background-color: var(--accent);
+    border: none;
+    border-radius: 6px;
+    transition: color 500ms, background-color 500ms, box-shadow 500ms;
+    border: 1px solid;
+}
+
+h1 {
+    color: #322214;
+    font-size: 25px;
+    text-align: start;
+    transition: color 500ms;
+}
+
+img {
+    padding: 10px;
+    padding-left: 0px;
+    display: block;
+}

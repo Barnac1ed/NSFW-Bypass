@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+    <link rel="favicon" type="image/x-icon" href="./assets/favicon.ico">
+</head>
+
+<body>
+    <nav>
+        <a href="#bypass">Bypass</a>
+        <a href="#how">How</a>
+    </nav>
+    <div id="bypass">
+        <h1>Bypass</h1>
+        <p>
+            This is a simple bypasser that will bypass DeviantArt NSFW images without logging in.
+            Insert the link to the image you want to bypass below and it will be redirected to the image.
+        </p>
+        <input type="text" class="link" placeholder="Link to image">
+        <button id="h" onclick="bypass()">Bypass</button>
+        <img src="./assets/placeholder.png" id="image">
+    </div>
+    <div id="how">
+        <h1>How</h1>
+        <p>
+            This bypasser exploits DeviantArt's backend API to access NSFW images without having to log in.
+            It also uses <a href="https://allorigins.win">AllOrigins</a> to get around the same-origin policy
+            (probably) put in place to prevent people from accessing images without logging in.
+        </p>
+    </div>
+    <footer>
+        <p>&copy; Barnacled 2022</p>
+        <p><a href="https://github.com/Barnac1ed/NSFW-Bypass">Source Code!</a></p>
+    </footer>
+</body>
+
+</html>
